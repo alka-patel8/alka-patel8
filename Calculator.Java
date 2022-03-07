@@ -41,13 +41,13 @@ public class Calculator {
         return sumWithLine(str);
     }
     public static void main(String args[]) {
-        String inputString = "//'1''2,3,4\n1,4,2'-2";
+        String inputString = "//'1''-2,3,4\n1,4,2'-2";
         try {
             int res_sum = sum(inputString);
             System.out.println(res_sum);
         }
         catch(Exception e) {
-            System.out.println("String contains -ve Numbers");
+            System.out.println("negatives not allowed");
         }
 
     }
