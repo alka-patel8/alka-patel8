@@ -36,7 +36,7 @@ public class Calculator {
         return sumWithLine(str);
     }
     public static void main(String args[]) {
-        String inputString = "//;\n1;2";
+        String inputString = "//'1''2,3,4\n1,4,2'2";
         int res_sum = sum(inputString);
         System.out.println(res_sum);
     }
