@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.lang.Exception;
 public class Calculator {
     public static int sumWithoutLine(String str) throws  Exception{   //sum of each deliminated line having no \n
@@ -41,7 +42,8 @@ public class Calculator {
         return sumWithLine(str);
     }
     public static void main(String args[]) {
-        String inputString = "//'1''-2,3,4\n1,4,2'-2";
+        Scanner in = new Scanner(System.in);
+        String inputString = in.nextLine();
         try {
             int res_sum = sum(inputString);
             System.out.println(res_sum);
