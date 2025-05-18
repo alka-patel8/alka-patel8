@@ -1,6 +1,7 @@
-- 👋 Hi, I’m @alka-patel8
-- 👀 I’m interested in coding and debugging
-- 🌱 I’m currently learning data structures and Algorithms
+- 👋 Hi, I’m Alka Patel
+- 👩🏻‍💻I'm currently working as SDE at Amazon.
+- 🌱 Other than coding, I like learn about new tech stuff
+- 🎨 You will find me Playing badminton or doing some DIY Crafts at my place on the weekend.
 - 💞️ I’m looking to collaborate on java open source projects
 - 📫 Mail me at 99.alkapatel@gmail.com
 
